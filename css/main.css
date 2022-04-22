@@ -107,12 +107,12 @@ header{
 .hero__inner{
     padding-top: 116px;
     padding-bottom: 249px;
-    padding-left: 150px;
+    padding-left: 130px;
     background-blend-mode:normal;
     background-image:url("../images/hero-bgri1.png");
     background-repeat:no-repeat;
     background-size:710px 696px;
-    background-position: calc(50% + 400px) calc(100%);
+    background-position: calc(50% + 405px) calc(100%);
 }
 
 .hero__text-box{
@@ -176,10 +176,11 @@ header{
 /* selection */
 
 .selection{
-    padding:20px 0;
+    padding:20px 20px;
 }
 
-.selection__inner{
+.selection__inner{ 
+    position: relative;
     padding:50px 0;
     background-image:url("../images/Rectangle2.png");
     background-size: 100%;
@@ -222,7 +223,7 @@ header{
 .selection__item:nth-child(2n) .selection__text-box{
     width:400px;
     margin-left: 157px;
-}
+} 
 
 .selection__img{
     margin-right: 117px;
@@ -257,4 +258,19 @@ header{
     font-size: 22px;
     line-height: 34px;
     color: #333333;
+} 
+
+.sel-img-1{
+    position:absolute;
+    top:calc(0% + 50px);
+    left:calc(50% - 895px);
+    width: 371px;
+    height: 371px;
+}
+.sel-img-2{
+    position:absolute;
+    top:calc(50% + 50px);
+    left:calc(50% + 590px);
+    width: 371px;
+    height: 371px;
 }
